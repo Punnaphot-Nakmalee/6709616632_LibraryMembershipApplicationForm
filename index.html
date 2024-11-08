@@ -16,22 +16,53 @@
         
         <img id="boos" src="./res/boos.png">
     </div>
-    <form>
+    <form id="formm">
         <label for="Fname">First name:</label><br>
-        <input type="text" id="Fname" name="fname" placeholder="-required-" required><br><br>
-        <label for="Lname">Last name</label><br>
+        <input  type="text" id="Fname" name="fname" placeholder="-required-" required><br><br>
+        <label for="Lname">Last name:</label><br>
         <input type="text" id="Lname" name="Lname" placeholder="-required-" required ><br><br>
         
-        <label for="Fname">First name(Thai):</label><br>
-        <input type="text" id="Fname" name="fname" placeholder="-required-" required><br><br>
-        <label for="Lname">Last name(Thai):</label><br>
-        <input type="text" id="Lname" name="Lname" placeholder="-required-" required ><br><br>
+        <label for="Fnamet">First name(Thai):</label><br>
+        <input type="text" id="Fnamet" name="fnamet" placeholder="-required-" required><br><br>
+        <label for="Lnamet">Last name(Thai):</label><br>
+        <input type="text" id="Lnamet" name="Lnamet" placeholder="-required-" required ><br><br>
 
         <label for="gender">Please select your gender:</label><br>
-        <select name="gender">
+        <select required name="gender" id="gender">
+            <option value="" disabled selected>Select your gender</option>
             <option value="male">Male</option>
             <option value="female">female</option>
-        </select>
+            <option value="others">Others</option>
+            <option value="no">Prefer not to answer</option>
+        </select><br><br>
+
+        <label for="SID">Student ID:</label><br>
+        <input type="text" id="SID" name="SID" placeholder="-required-" required ><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="-required-" required ><br><br>
+
+        <label for="bday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+
+        <label for="pref">Your books preference out of these(your top one):</label><br>
+        <select name="pref" id="pref" required>
+            <option value="" disabled selected>Preference</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Scienefiction">Sciene fiction</option>
+            <option value="Historicalfiction">Historical fiction</option>
+            <option value="History">History</option>
+            <option value="Drama">Drama</option>
+            <option value="Action">Action and adventure</option>
+            <option value="Philosophy">Philosophy</option>
+            <option value="Horror">Horror</option>
+            <option value="Satire">Satire</option>
+            <option value="Fairytale">Fairytale</option>
+            <option value="Crime and thrillers">Crime and thrillers</option>
+            <option value="Comic books">Comic books</option>
+            <option value="none">None of the above</option>
+        </select><br><br>
+        
         <label for="newsletter">Subscribe to Newsletter:</label>
         <input type="checkbox" id="newsletter" name="newsletter"
         value="yes"><br><br>

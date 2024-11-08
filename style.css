@@ -6,7 +6,9 @@ margin: 0;
     overflow-x: hidden;
     background-color: black;
 }
-
+#formm{
+    text-align: center;
+}
 
 #header {
     background-color: black;
@@ -41,20 +43,124 @@ form {
     color: white;
     font-family:'Press Start 2P';
     font-size: 1vw;
+    margin-top: 5px;
 }
 #Fname {
     font-family:'Press Start 2P';
     font-size: 1vw;
+    padding-top: 2px;
+    margin-top: 10px;
 }
 #Lname {
     font-size: 1vw;
     font-family:'Press Start 2P';
+    padding-top: 2px;
+    margin-top: 10px;
 }#Fname::placeholder {
     opacity: 50%;
+    text-align: center;
 }
 #Lname::placeholder {
     opacity: 50%;
+    text-align: center;
+}
+#Fnamet {
+    font-family:'Press Start 2P';
+    font-size: 1vw;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+#Lnamet {
+    font-size: 1vw;
+    font-family:'Press Start 2P';
+    padding-top: 2px;
+    margin-top: 10px;
+}#Fnamet::placeholder {
+    opacity: 50%;
+    text-align: center;
+}
+#Lnamet::placeholder {
+    opacity: 50%;
+    text-align: center;
+}
+#SID::placeholder {
+    opacity: 50%;
+    font-family:'Press Start 2P';
+    font-size: 1vw;
+    text-align: center;
+    
+}
+#email::placeholder {
+    opacity: 50%;
+    font-family:'Press Start 2P';
+    font-size: 1vw;
+    text-align: center;
 }
 #submit {
     font-family:'Press Start 2P';
+    text-align: center;
+    font-size: 1vw;         
+    width: 8vw;            
+    height: 3vw;
+    cursor: pointer;
+}
+#gender {
+    font-size: 1vw;
+    font-family:'Press Start 2P';
+    text-align: center;
+    cursor: pointer;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+#option {
+    cursor: pointer;
+    font-family:'Press Start 2P';
+    opacity: 50%;
+    text-align: center;
+}
+#pref {
+    font-size: 1vw;
+    font-family:'Press Start 2P';
+    text-align: center;
+    cursor: pointer;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+#birthday {
+    font-size: 1vw;
+    font-family:'Press Start 2P';
+    text-align: center;
+    cursor: pointer;
+    padding-top: 2px;
+}
+#email {
+    font-size: 1vw;
+    font-family:'Press Start 2P';
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+#newsletter {
+    font-size: 1vw;
+    font-family:'Press Start 2P';
+    text-align: center;
+}
+#SID {
+    font-size: 1vw;
+    font-family:'Press Start 2P';
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+input[type="checkbox"] {
+    appearance: none; /* Remove default checkbox styling */
+    width: 1vw;
+    height: 1vw;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked {
+    background-color: #ffffff; /* Checked background color */
+    border-color: #ffffff;
 }
