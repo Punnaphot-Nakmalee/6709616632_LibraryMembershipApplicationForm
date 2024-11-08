@@ -37,3 +37,24 @@ h2 {
 #boos {
     height: 10vw;
 }
+form {
+    color: white;
+    font-family:'Press Start 2P';
+    font-size: 1vw;
+}
+#Fname {
+    font-family:'Press Start 2P';
+    font-size: 1vw;
+}
+#Lname {
+    font-size: 1vw;
+    font-family:'Press Start 2P';
+}#Fname::placeholder {
+    opacity: 50%;
+}
+#Lname::placeholder {
+    opacity: 50%;
+}
+#submit {
+    font-family:'Press Start 2P';
+}
