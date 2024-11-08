@@ -164,3 +164,6 @@ input[type="checkbox"]:checked {
     background-color: #ffffff; /* Checked background color */
     border-color: #ffffff;
 }
+footer {
+    height: 3vw;
+}
